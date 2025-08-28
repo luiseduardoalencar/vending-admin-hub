@@ -12,9 +12,6 @@ services:
     build: .
     # Nome do contêiner que será criado
     container_name: vending-admin-container
-    # Mapeia a porta 8080 do seu computador (host) para a porta 80 do contêiner
-    ports:
-      - "8080:80"
     # Política de reinicialização: sempre reinicia o contêiner se ele parar
     # (útil em caso de falhas ou reinicialização da VPS)
     restart: always
